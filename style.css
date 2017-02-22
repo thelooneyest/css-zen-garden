@@ -1,4 +1,28 @@
+/*---GLOBAL STYLING---*/
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
 body{
     background: #2a595f;
     color: aquamarine;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.1em;
+}
+
+/*---Typography---*/
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Pangolin', cursive;
+    color: white;
+    
+}
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-size: 2em;
+}
+a:link{
+    color: coral;
 }
