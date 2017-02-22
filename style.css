@@ -7,6 +7,7 @@ body{
     color: aquamarine;
     font-family: 'Shadows Into Light', cursive;
     font-size: 1.1em;
+    margin: 0;
 }
 
 /*---Typography---*/
@@ -25,4 +26,17 @@ h2{
 }
 a:link{
     color: coral;
+    text-decoration: none;
+}
+
+/*---Positioning---*/
+
+header{
+    position: fixed;
+    background: rgba(214, 214, 79, 0.5);
+    width: 100%;
+    
+}
+#summary{
+    margin-top: 100px;
 }
